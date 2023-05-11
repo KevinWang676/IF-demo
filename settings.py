@@ -2,8 +2,12 @@ import os
 
 import numpy as np
 
-HF_TOKEN = os.getenv('HF_TOKEN')
-UPLOAD_REPO_ID = os.getenv('UPLOAD_REPO_ID')
+#HF_TOKEN = os.getenv('HF_TOKEN')
+HF_TOKEN = "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"
+
+#UPLOAD_REPO_ID = os.getenv('UPLOAD_REPO_ID')
+UPLOAD_REPO_ID = "kevinwang676/IF-images"
+
 UPLOAD_RESULT_IMAGE = os.getenv('UPLOAD_RESULT_IMAGE') == '1'
 
 # UI options
