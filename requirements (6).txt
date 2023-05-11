@@ -1,0 +1,16 @@
+accelerate==0.18.0
+beautifulsoup4==4.12.2
+bitsandbytes==0.38.1
+git+https://github.com/huggingface/diffusers
+ftfy==6.1.1
+gradio==3.27.0
+huggingface_hub==0.14.1
+numpy==1.24.3
+Pillow==9.5.0
+safetensors==0.3.0
+sentencepiece==0.1.98
+tokenizers==0.13.3
+tqdm==4.65.0
+transformers==4.28.1
+shortuuid==1.0.11
+apscheduler==3.10.1
