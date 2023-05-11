@@ -25,7 +25,9 @@ SHOW_NUM_STEPS_3 = os.getenv('SHOW_NUM_STEPS_3', '1') == '1'
 GALLERY_COLUMN_NUM = int(os.getenv('GALLERY_COLUMN_NUM', '4'))
 
 # Parameters
-MAX_QUEUE_SIZE = int(os.getenv('MAX_QUEUE_SIZE', '10'))
+#MAX_QUEUE_SIZE = int(os.getenv('MAX_QUEUE_SIZE', '10'))
+MAX_QUEUE_SIZE = 10
+
 MAX_SEED = np.iinfo(np.int32).max
 MAX_NUM_IMAGES = int(os.getenv('MAX_NUM_IMAGES', '4'))
 DEFAULT_NUM_IMAGES = min(MAX_NUM_IMAGES,
