@@ -48,6 +48,7 @@ RUN_GARBAGE_COLLECTION = os.getenv('RUN_GARBAGE_COLLECTION', '1') == '1'
 DEBUG = os.getenv('DEBUG') == '1'
 
 # Default options for the public demo
+IS_PUBLIC_DEMO = "1"
 if os.getenv('IS_PUBLIC_DEMO') == '1':
     # UI
     SHOW_DUPLICATE_BUTTON = True
